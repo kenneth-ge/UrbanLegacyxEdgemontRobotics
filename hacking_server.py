@@ -15,7 +15,7 @@ while True:
     message = message.decode()
     print(message)
 
-    if message == 'get passwords':
+    if message == 'get * from table':
         # send password
         serverSocket.sendto('uyrvfj'.encode(), address)
     else:
