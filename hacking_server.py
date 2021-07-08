@@ -17,6 +17,6 @@ while True:
 
     if message == 'get * from table':
         # send password
-        serverSocket.sendto("LgXM3YiCTihFM3DnX3Ac2a37sjN".encode(), address)
+        serverSocket.sendto("gFrghFdhvdu".encode(), address)
     else:
         serverSocket.sendto('forbidden'.encode(), address)
