@@ -16,6 +16,7 @@ while True:
     print(message)
 
     if message == 'get passwords':
-        serverSocket.sendto('password'.encode(), address)
+        # send password
+        serverSocket.sendto('uyrvfj'.encode(), address)
     else:
         serverSocket.sendto('forbidden'.encode(), address)
